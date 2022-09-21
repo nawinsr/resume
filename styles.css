@@ -1,0 +1,174 @@
+@page {
+    size: 7in 9.25in;
+    margin: 5mm;
+}
+
+html {
+    font-family: century-gothic, sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+}
+
+.body-div {
+    padding: 0 25px;
+    max-width: 7in;
+    /* border: solid 1px black; */
+    background-color: white;
+}
+
+@media print {
+    .body-div {
+        padding: 0 0 !important;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .body-div {
+        width: 7in;
+    }
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-bottom: solid 1px #A4A4A4;
+}
+
+.cli {
+    list-style: none;
+    margin-top: 5px 0 5px 0;
+
+}
+
+.cli li {
+    margin-bottom: 0px !important;
+}
+
+.profile-img {
+    height: 100px !important;
+}
+
+.cent {
+    text-align: center;
+}
+
+.name {
+    margin: 15px 0 10px 0 !important;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #252932;
+}
+
+.role {
+    color: #A4A4A4;
+}
+
+.contact {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    border-bottom: solid 1px #A4A4A4;
+
+}
+
+.contact-list {
+    font-size: 13px;
+    /* line-height: 35px; */
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.skills-edu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.material-icons {
+    font-size: 14px !important;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 30px;
+    margin-right: 8px;
+}
+
+.small {
+    font-size: 14px !important;
+    color: black !important;
+    background-color: white;
+
+}
+
+.cont {
+    padding: 5px;
+}
+
+.stitle {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #252932;
+    margin: 5px 0 5px 0;
+}
+
+.line {
+    border-bottom: solid 1px #A4A4A4;
+
+}
+
+.skill-list li {
+    line-height: 30px;
+}
+
+.degree {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.institute {
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    font-size: 14px;
+}
+
+.deg-cont {
+    /* display: grid;
+    grid-template-columns: 1fr 60px; */
+}
+
+.year {
+    font-size: 12px;
+    margin-top: 3px;
+
+}
+
+.work-project {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.link {
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.bullets {
+    margin-top: 3px;
+}
+
+.bullets li {
+    margin-bottom: 5px;
+}
