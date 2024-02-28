@@ -1,182 +1,180 @@
 @page {
-    size: 7in 9.25in;
-    margin: 5mm;
+  size: 7in 9.25in;
+  margin: 5mm;
 }
-
+* {
+}
 html {
-    /* font-family: century-gothic, sans-serif; */
-    font-family: popins,sans-serif;
-
+  font-family: century-gothic, sans-serif;
+  font-family: popins, sans-serif;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #262626 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #262626 !important;
 }
 
 .body-div {
-    padding: 0 25px;
-    max-width: 7in;
-    /* border: solid 1px black; */
-    background-color: white;
+  padding: 0 25px;
+  max-width: 7in;
+  /* border: solid 1px black; */
+  background-color: white;
 }
 
 @media print {
-    .body-div {
-        padding: 0 0 !important;
-    }
+  .body-div {
+    padding: 0 0 !important;
+  }
 
-    body {
-        background-color: white!important;
-    }
+  body {
+    background-color: white !important;
+  }
 
-    .body-div {
-        width: 7in;
-    }
+  .body-div {
+    width: 7in;
+  }
 }
 
 .top {
-    display: grid;
-    grid-template-columns: 2fr 1.5fr;
-    border-bottom: solid 1px #A4A4A4;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  border-bottom: solid 1px #a4a4a4;
 }
 
 .cli {
-    list-style: none;
-    margin-top: 10px 0 5px 0;
-
+  list-style: none;
+  margin-top: 10px 0 5px 0;
 }
 
 .cli li {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .profile-img {
-    height: 100px !important;
+  height: 100px !important;
 }
 
 .cent {
-    text-align: center;
+  text-align: center;
 }
 
 .name {
-    margin: 15px 0 10px 0 !important;
-    font-weight: bolder;
-    font-size: 20px;
-    color: #252932;
+  margin: 15px 0 10px 0 !important;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #252932;
 }
 
 .role {
-    color: #A4A4A4;
+  color: #a4a4a4;
 }
 
 .contact {
-    padding: 8px;
-    display: grid;
-    grid-template-columns: 1.5fr repeat(3, 1fr);
-    border-bottom: solid 1px #A4A4A4;
-
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 1.5fr repeat(3, 1fr);
+  border-bottom: solid 1px #a4a4a4;
 }
 
 .contact-list {
-    font-size: 13px;
-    /* line-height: 35px; */
-
+  font-size: 13px;
+  /* line-height: 35px; */
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .skills-edu {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
 }
 
 .material-icons {
-    font-size: 14px !important;
-    color: white;
-    background-color: black;
-    padding: 6px;
-    border-radius: 30px;
-    margin-right: 8px;
+  font-size: 14px !important;
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border-radius: 30px;
+  margin-right: 8px;
 }
 
 .small {
-    font-size: 14px !important;
-    color: black !important;
-    background-color: white;
-
+  font-size: 14px !important;
+  color: black !important;
+  background-color: white;
 }
 
 .cont {
-    padding: 5px;
+  padding: 5px;
 }
 
 .stitle {
-    font-weight: bolder;
-    font-size: 20px;
-    color: #252932;
-    margin: 5px 0 5px 0;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #252932;
+  margin: 5px 0 5px 0;
 }
 
 .line {
-    border-bottom: solid 1px #A4A4A4;
-
+  border-bottom: solid 1px #a4a4a4;
 }
 
 .skill-list li {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 .degree {
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #252932;
-
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #252932;
 }
 
 .institute {
-    margin-top: 0;
-    margin-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 5px;
 
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .deg-cont {
-    /* display: grid;
+  /* display: grid;
     grid-template-columns: 1fr 60px; */
 }
 
 .year {
-    font-size: 12px;
-    margin-top: 3px;
-
+  font-size: 12px;
+  margin-top: 3px;
 }
 
 .work-project {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .link {
-    font-size: 14px;
-    text-decoration: underline;
-    margin-left: 10px;
-    color: black !important;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 10px;
+  color: black !important;
 }
 
 .bullets {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 .bullets li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 a {
-    color: black !important;
+  color: black !important;
+}
+
+.awstools {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
